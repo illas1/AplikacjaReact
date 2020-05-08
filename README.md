@@ -1,3 +1,20 @@
+Aplikacja jest dodatkiem do niedawno rozpoczętego projektu aplikacji webowej dla trenera personalnego: https://github.com/illas1/inzynierka
+
+Aplikacja ta została stworzona aby uporządkować zaplanowane zadania i ułatwić organizację współpracy oraz opieki nad podopiecznymi trenera personalnego.
+
+Zadania z "Listy zadań do zrobienia" można przenosić na liste zadań wykonanych (✓)  lub usuwać (X). Aplikacja wyświetla ilość zadań które pozostały nam do wykonania lub ile już wykonaliśmy. 
+Na liście wykonanych zadań widzimy kiedy dane zadanie zostało zaznaczone jako wykonane.
+![N|Solid](https://zapodaj.net/images/d56cb442272c7.png)
+
+Istnieje również możliwość dodania nowych zadań. 
+Można zaznaczyć czy klient ma wykupiony pakiet premium (np. treningi z filmikami pokazowymi) oraz do kiedy mamy wykonać zadanie. 
+Klient premium jest oznaczony odpowiednim stylem - biała ramka i czcionka, szare tło aby wyróżniać się na tle innych.
+![N|Solid](https://zapodaj.net/images/0c507ac2924ec.png)
+
+
+##########################
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
