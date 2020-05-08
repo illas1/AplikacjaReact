@@ -28,7 +28,17 @@ class AddTask extends Component {
      }
 
      handleClick = () =>{
-        console.log ("DODAJ")
+        console.log ("DODAJ");
+        const{text,date,checked} = this.state;
+
+        const add = this.props.add(text, date, checked)
+        if(add){
+            this.setState({
+                text: ' ',
+                checked:false,
+                date:this.minDate
+            })
+        }
      }
 
     render() {
@@ -43,7 +53,7 @@ class AddTask extends Component {
                 <label htmlFor="date">DATA WYKONANIA:</label>
                 <input type="date" value={this.state.date}
                 min={this.minDate} max={maxDate} onChange={this.handleDate}/><br/>
-                <button class="ready" onClick={this.handleClick}>Dodaj</button>
+                <button className="ready" onClick={this.handleClick}>Dodaj</button>
             <hr/>
             </div>
          );
